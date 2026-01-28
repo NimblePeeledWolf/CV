@@ -7,12 +7,12 @@ import os
 
 
 model = YOLO("yolov8n.pt")
-img_path = "/workspaces/CV/static/food.jpg"
+img_path = "/workspaces/CV/static/sample.jpg"
 results = model(img_path)
 
 annotated_frame = results[0].plot()
 
-output_path = "/workspaces/CV/outputs/detected_food.jpg"
+output_path = "/workspaces/CV/outputs/detected_nike 1.jpg"
 cv2.imwrite(output_path, annotated_frame)
 
 print(f"Detection Complete. Output saved to: {output_path}")
