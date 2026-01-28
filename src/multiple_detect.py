@@ -7,7 +7,7 @@ import os
 
 model= YOLO("yolov8n.pt")
 
-results = model(["/workspaces/CV/static/bed.jpeg","/workspaces/CV/static/threemen.jpeg","/workspaces/CV/static/home.jpeg"])
+results = model(["/workspaces/CV/practice nike"])
 
 for i, result in enumerate(results):
     annotated_frame = result.plot()
