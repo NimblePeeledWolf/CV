@@ -12,7 +12,7 @@ results = model(img_path)
 
 annotated_frame = results[0].plot()
 
-output_path = "/workspaces/CV/outputs/detected_nike 1.jpg"
+output_path = "/workspaces/CV/outputs/detected_sample.jpg"
 cv2.imwrite(output_path, annotated_frame)
 
 print(f"Detection Complete. Output saved to: {output_path}")

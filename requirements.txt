@@ -5,3 +5,5 @@ numpy
 pillow
 ultralytics
 torchvision
+ImageIO
+opencv-python-headless
