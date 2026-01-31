@@ -7,7 +7,7 @@ import os
 
 
 model = YOLO("yolov8n.pt")
-img_path = "/workspaces/CV/static/sample.jpg"
+img_path = "//workspaces/CV/nike/symbol.n.jpeg"
 results = model(img_path)
 
 annotated_frame = results[0].plot()
