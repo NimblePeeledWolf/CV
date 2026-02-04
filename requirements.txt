@@ -1,8 +1,8 @@
-torch
-matplotlib
-numpy
-pillow
 ultralytics
+torch
 torchvision
-ImageIO
 opencv-python-headless
+numpy
+matplotlib
+pillow
+imageio
