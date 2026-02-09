@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['NB logo', 'OC_logo', 'adidas logo', 'asics logo', 'hoka logo', 'nike logo', 'sock logo']
+
+roboflow:
+  workspace: cv-ia3yb
+  project: my-first-project-tropg
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/cv-ia3yb/my-first-project-tropg/dataset/3
