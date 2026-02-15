@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2> Result</h2>
+
+        <h3> Detections</h3>
+        <ul>
+            {% for d in detections %}
+                <li>{{ d.label}} ({{d.conf}})</li>
+            {% endfor %}
+            {% if detections | length == 0 %}
+                <li>No logos detected</li>
+            {% endif % }
+        </ul>
+
+        <h3> Annotated Image</h3>
+        <img src="/{{ output_image }}" style="max-width: 800px;">
+        <p><a href="/">Try another </a></p>
+    </body>
+</html>
