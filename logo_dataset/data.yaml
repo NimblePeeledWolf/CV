@@ -8,6 +8,6 @@ names: ['NB logo', 'OC_logo', 'adidas logo', 'asics logo', 'hoka logo', 'nike lo
 roboflow:
   workspace: cv-ia3yb
   project: my-first-project-tropg
-  version: 3
+  version: 9
   license: Public Domain
-  url: https://universe.roboflow.com/cv-ia3yb/my-first-project-tropg/dataset/3
+  url: https://universe.roboflow.com/cv-ia3yb/my-first-project-tropg/dataset/9
