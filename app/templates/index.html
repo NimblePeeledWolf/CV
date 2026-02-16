@@ -1,10 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <body>
-        <h2> upload an image </h2>
-        <form action="/predict" method="post" enctype="multipart/form-data">
-            <input type="file" name="image" accept="image/*" required>
-            <button type="submit">Detect logos </button>
-        </form>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Upload</title>
+  </head>
+  <body>
+    <h2>Upload an image</h2>
+    <form action="{{ url_for('predict') }}" method="post" enctype="multipart/form-data">
+      <input type="file" name="image" accept="image/*" required />
+      <button type="submit">Detect logos</button>
+    </form>
+  </body>
 </html>
