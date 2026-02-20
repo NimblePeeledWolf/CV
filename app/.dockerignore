@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.git/
+.gitignore
+runs/
+datasets/
+logo_dataset/
+static/uploads/
+static/outputs/
+.DS_Store
